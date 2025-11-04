@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+@property --a {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.containerl {
+    background: url("../../assets/bg.webp");
+    background-size: cover;
+    height: 100vh;
+}
+
+.boxl {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    filter: drop-shadow(0 15px 50px #000);
+    border-radius: 20px;
+    animation: rotating 4s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 870px;
+    transition: 0.5s;
+}
+
+@keyframes rotating {
+    0% {
+        --a: 0deg;
+    }
+
+    100% {
+        --a: 360deg;
+    }
+}
+
+.boxl::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a),
+            #45f3ff 0%,
+            #45f3ff 5%,
+            transparent 5%,
+            transparent 40%,
+            #45f3ff 50%);
+    filter: drop-shadow(0 15px 50px #000);
+    border-radius: 20px;
+    animation: rotating 4s linear infinite;
+    animation-delay: -1s;
+}
+
+.boxl::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #2d2d39;
+    border-radius: 15px;
+    border: 8px solid #25252b;
+    margin-top: 10px;
+}
+
+.loginl {
+    position: absolute;
+    inset: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #00000033;
+    color: #fff;
+    z-index: 1000;
+    box-shadow: inset 0 10px 20px #00000080;
+    border-bottom: 2px solid #ffffff80;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.loginBxl {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+}
+
+.forml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+input {
+    width: 400px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    background: #0000001a;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    height: 60px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+input[type="submit"] {
+    background: #45f3ff;
+    border: none;
+    font-weight: 500;
+    color: #111;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type="submit"]:active {
+    background-color: #45f3ff81;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 10px #45f3ff, 0 0 60px #45f3ff;
+}
+
+.password-wrapperl {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.password-wrapperl input {
+    width: 100%;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.password-wrapperl i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #555;
+    font-size: 20px;
+}
+
+.password-wrapperl i:hover {
+    color: #fff;
+}
+
+.groupl {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.home-btn {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+    .containerl {
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .boxl {
+        width: 500px;
+        height: 650px;
+        margin-left: 400px;
+        border-radius: 18px;
+    }
+
+    .loginl {
+        inset: 30px;
+        border-radius: 10px;
+    }
+
+    .loginBxl {
+        gap: 30px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        letter-spacing: 0.15em;
+    }
+
+    .forml {
+        gap: 30px;
+    }
+
+    input {
+        width: 350px;
+        height: 55px;
+        font-size: 0.95em;
+    }
+
+    .password-wrapperl input {
+        width: 100%;
+        padding-right: 35px;
+    }
+
+    .password-wrapperl i {
+        right: 8px;
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .home-btn {
+        padding: 9px 18px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .containerl {
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .boxl {
+        width: 400px;
+        height: 550px;
+        margin-left: 0;
+        margin: 0 auto;
+        border-radius: 15px;
+    }
+
+    .loginl {
+        inset: 25px;
+        border-radius: 10px;
+    }
+
+    .loginBxl {
+        gap: 25px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.1em;
+    }
+
+    .forml {
+        gap: 25px;
+    }
+
+    input {
+        width: 250px;
+        height: 50px;
+        font-size: 0.9em;
+    }
+
+    .password-wrapperl input {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .password-wrapperl i {
+        right: 8px;
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .home-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
