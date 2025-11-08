@@ -1,3 +1,28 @@
+.close-button {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.close-icon {
+    font-size: 3.5rem;
+    color: red;
+    font-weight: bold;
+    line-height: 1;
+    transition: transform 0.6s ease, color 0.3s ease;
+}
+
+.close-icon:hover {
+    transform: scale(1.2);
+    color: #ff5555;
+}
+
 body.culture-bg,
 body.cuisine-bg,
 body.sights-bg {
