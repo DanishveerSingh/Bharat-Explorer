@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import vid from "../assets/vid.mp4";
+import vid from "../../assets/vid.mp4";
 import qr from "../../assets/qr.jpg";
 import img from "../../assets/img.jpeg";
 import img1 from "../../assets/img1.jpeg";
