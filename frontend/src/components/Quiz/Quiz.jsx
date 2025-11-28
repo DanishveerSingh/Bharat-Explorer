@@ -17,10 +17,7 @@ function Quiz() {
   const [timeUp, setTimeUp] = useState(false);
 
   const shuffleQuestions = () => {
-    const shuffled = [...QUESTIONS]
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 10);
-    return shuffled;
+    return [...QUESTIONS].sort(() => Math.random() - 0.5).slice(0, 10);
   };
 
   const getCorrectIndex = (q) => {
@@ -42,7 +39,7 @@ function Quiz() {
 
   const saveScoreToDB = async (finalScore) => {
     try {
-      const token = localStorage.getItem("token"); 
+      const token = localStorage.getItem("token");
       if (!token) {
         console.error("No token found. Please login first.");
         return;
@@ -69,14 +66,8 @@ function Quiz() {
     }
   };
 
-
   useEffect(() => {
-    if (showResult || !started) {
-      return;
-    }
-    if (selectedIndex !== null || timeUp) {
-      return;
-    }
+    if (showResult || !started || selectedIndex !== null || timeUp) return;
     if (timer === 0) {
       setTimeUp(true);
       return;
@@ -86,8 +77,7 @@ function Quiz() {
   }, [timer, selectedIndex, showResult, timeUp, started]);
 
   const handleStart = () => {
-    const newSet = shuffleQuestions();
-    setShuffledQuestions(newSet);
+    setShuffledQuestions(shuffleQuestions());
     setStarted(true);
     setCurrentQuestion(0);
     setSelectedIndex(null);
@@ -98,13 +88,9 @@ function Quiz() {
   };
 
   const handleAnswerClick = (index) => {
-    if (selectedIndex !== null || timeUp) {
-      return;
-    }
+    if (selectedIndex !== null || timeUp) return;
     setSelectedIndex(index);
-    if (index === correctIndex) {
-      setScore((prev) => prev + 1);
-    }
+    if (index === correctIndex) setScore((prev) => prev + 1);
   };
 
   const handleNext = () => {
@@ -114,15 +100,14 @@ function Quiz() {
       setTimer(15);
       setTimeUp(false);
     } else {
-      localStorage.setItem("lastScore", score);
+      localStorage.setItem(`lastScore_${username}`, score);
       saveScoreToDB(score);
       setShowResult(true);
     }
   };
 
   const handleRestart = () => {
-    const reshuffled = shuffleQuestions();
-    setShuffledQuestions(reshuffled);
+    setShuffledQuestions(shuffleQuestions());
     setCurrentQuestion(0);
     setSelectedIndex(null);
     setScore(0);
@@ -148,21 +133,19 @@ function Quiz() {
 
   const optionClass = (index) => {
     if (selectedIndex !== null) {
-      if (index === correctIndex) {
-        return "option-btn correct";
-      }
+      if (index === correctIndex) return "option-btn correct";
       if (index === selectedIndex && index !== correctIndex)
         return "option-btn wrong";
       return "option-btn";
     }
     if (timeUp) {
-      if (index === correctIndex) {
-        return "option-btn correct";
-      }
+      if (index === correctIndex) return "option-btn correct";
       return "option-btn";
     }
     return "option-btn";
   };
+
+  const lastScore = localStorage.getItem(`lastScore_${username}`);
 
   if (!started) {
     return (
@@ -172,19 +155,18 @@ function Quiz() {
         </button>
         <div className="quiz-card welcome-card">
           <h2>Welcome {username}! 👋</h2>
-          {localStorage.getItem("lastScore") && (
+          {lastScore && (
             <p className="last-score">
-              Your last quiz score:{" "}
-              <strong>{localStorage.getItem("lastScore")}</strong> / 10
+              Your last quiz score: <strong>{lastScore}</strong> / 10
             </p>
           )}
           <p>
             Ready to test your knowledge about{" "}
-            <strong>India’s Culture, Cuisine, and Heritage?</strong>?
+            <strong>India’s Culture, Cuisine, and Heritage?</strong>
           </p>
           <p>
             You’ll face <strong>10 questions</strong>, each with{" "}
-            <strong>15 seconds</strong> to answer. Choose wisely.
+            <strong>15 seconds</strong> to answer.
           </p>
           <div>ALL THE BEST 🎯</div>
           <button className="start-btn" onClick={handleStart}>
