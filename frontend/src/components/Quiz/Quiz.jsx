@@ -43,10 +43,11 @@ function Quiz() {
   const saveScoreToDB = async (finalScore) => {
     try {
       const res = await fetch(
-        "https://bharat-explorer-ys4i.onrender.com/api/v1/quiz/save-score",
+        "https://bharat-explorer-ys4i.onrender.com/api/v1/quiz/score",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
+          credentials: "include",
           body: JSON.stringify({
             username: username.toLowerCase(),
             score: finalScore,
@@ -59,6 +60,7 @@ function Quiz() {
       console.error("Error saving score:", error);
     }
   };
+
 
   useEffect(() => {
     if (showResult || !started) {
