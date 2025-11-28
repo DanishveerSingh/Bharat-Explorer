@@ -1,15 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import vid from "../../assets/vid.mp4";
-import qr from "../../assets/qr.jpg";
-import img from "../../assets/img.jpeg";
-import img1 from "../../assets/img1.jpeg";
-import img2 from "../../assets/img2.jpg";
-import img3 from "../../assets/img3.jpg";
-import user1 from "../../assets/user1.png";
-import user2 from "../../assets/user2.png";
-import user3 from "../../assets/user3.png";
-import user4 from "../../assets/user4.png";
+import vid from "../assets/vid.mp4";
+import qr from "../assets/qr.jpg";
+import img from "../assets/img.jpeg";
+import img1 from "../assets/img1.jpeg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import user1 from "../assets/user1.png";
+import user2 from "../assets/user2.png";
+import user3 from "../assets/user3.png";
+import user4 from "../assets/user4.png";
 import "./HomePage.css";
 import Card from "../Card/Card.jsx";
 import {
