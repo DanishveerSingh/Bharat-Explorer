@@ -28,7 +28,7 @@ function ChangePassword() {
     }
     try {
       const res = await fetch(
-        "http://localhost:8001/api/v1/user/change-password",
+        "https://bharat-explorer-ys4i.onrender.com/api/v1/user/change-password",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

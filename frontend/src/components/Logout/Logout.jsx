@@ -7,10 +7,13 @@ function Logout() {
   useEffect(() => {
     const logoutUser = async () => {
       try {
-        await fetch("http://localhost:8001/api/v1/user/logout", {
-          method: "POST",
-          credentials: "include",
-        });
+        await fetch(
+          "https://bharat-explorer-ys4i.onrender.com/api/v1/user/logout",
+          {
+            method: "POST",
+            credentials: "include",
+          }
+        );
       } catch (error) {
         console.error("Logout failed:", error);
       } finally {

@@ -22,11 +22,14 @@ function Register() {
       return;
     }
     try {
-      const res = await fetch("http://localhost:8001/api/v1/user/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
+      const res = await fetch(
+        "https://bharat-explorer-ys4i.onrender.com/api/v1/user/register",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form),
+        }
+      );
       const data = await res.json();
       if (!res.ok) {
         setError(data.message || "Registration failed");

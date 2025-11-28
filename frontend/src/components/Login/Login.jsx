@@ -26,12 +26,15 @@ function Login() {
       return;
     }
     try {
-      const res = await fetch("http://localhost:8001/api/v1/user/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-        credentials: "include",
-      });
+      const res = await fetch(
+        "https://bharat-explorer-ys4i.onrender.com/api/v1/user/login",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form),
+          credentials: "include",
+        }
+      );
       const data = await res.json();
       if (!res.ok) {
         setError(data.message || "Login failed");
