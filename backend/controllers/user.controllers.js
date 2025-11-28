@@ -39,6 +39,7 @@ const registerUser = asyncHandler(async (req, res) => {
       username: username.toLowerCase(),
       email,
       password,
+      quizScore: 0,
     });
     const createdUser = await User.findById(user._id).select(
       "-password -refreshToken"
