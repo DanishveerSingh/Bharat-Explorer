@@ -40,6 +40,26 @@ function Quiz() {
   const question = shuffledQuestions[currentQuestion];
   const correctIndex = getCorrectIndex(question);
 
+  const saveScoreToDB = async (finalScore) => {
+    try {
+      const res = await fetch(
+        "https://bharat-explorer-ys4i.onrender.com/api/v1/quiz/save-score",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            username: username.toLowerCase(),
+            score: finalScore,
+          }),
+        }
+      );
+      const data = await res.json();
+      console.log("Score Saved:", data);
+    } catch (error) {
+      console.error("Error saving score:", error);
+    }
+  };
+
   useEffect(() => {
     if (showResult || !started) {
       return;
@@ -85,6 +105,7 @@ function Quiz() {
       setTimeUp(false);
     } else {
       localStorage.setItem("lastScore", score);
+      saveScoreToDB(score);
       setShowResult(true);
     }
   };
