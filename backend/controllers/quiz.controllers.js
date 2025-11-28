@@ -13,7 +13,7 @@ const saveQuizScore = asyncHandler(async (req, res) => {
     throw new ApiError(404, "User not found");
   }
   user.quizScore = score;
-  await User.save({ validateBeforeSave: false });
+  await user.save({ validateBeforeSave: false });
   return res
     .status(200)
     .json(
