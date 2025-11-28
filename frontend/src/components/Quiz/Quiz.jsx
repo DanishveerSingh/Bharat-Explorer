@@ -42,19 +42,25 @@ function Quiz() {
 
   const saveScoreToDB = async (finalScore) => {
     try {
+      const token = localStorage.getItem("token"); 
+      if (!token) {
+        console.error("No token found. Please login first.");
+        return;
+      }
       const res = await fetch(
         "https://bharat-explorer-ys4i.onrender.com/api/v1/quiz/score",
         {
           method: "POST",
-          credentials: "include",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            score: finalScore,
-          }),
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ score: finalScore }),
         }
       );
       if (!res.ok) {
-        throw new Error("Failed to save score");
+        const errorText = await res.text();
+        throw new Error(`Failed to save score: ${errorText}`);
       }
       const data = await res.json();
       console.log("Score Saved:", data);
@@ -62,6 +68,7 @@ function Quiz() {
       console.error("Error saving score:", error);
     }
   };
+
 
   useEffect(() => {
     if (showResult || !started) {
