@@ -4,12 +4,12 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 import { User } from "../models/user.models.js";
 
 const saveQuizScore = asyncHandler(async (req, res) => {
-  const username = req.user.username;
+  const username = req.user.username.toLowerCase();
   const { score } = req.body;
   if (!username || typeof score !== "number") {
     throw new ApiError(400, "Username and valid score are required");
   }
-  const user = await User.findOne({ username: username.toLowerCase() });
+  const user = await User.findOne({ username });
   if (!user) {
     throw new ApiError(404, "User not found");
   }
@@ -23,11 +23,11 @@ const saveQuizScore = asyncHandler(async (req, res) => {
 });
 
 const getQuizScore = asyncHandler(async (req, res) => {
-  const { username } = req.body;
+  const username = req.params.username?.toLowerCase();
   if (!username) {
     throw new ApiError(400, "Username is required");
   }
-  const user = await User.findOne({ username: username.toLowerCase() });
+  const user = await User.findOne({ username });
   if (!user) {
     throw new ApiError(404, "User not found");
   }

@@ -46,21 +46,22 @@ function Quiz() {
         "https://bharat-explorer-ys4i.onrender.com/api/v1/quiz/score",
         {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
           credentials: "include",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            username: username.toLowerCase(),
             score: finalScore,
           }),
         }
       );
+      if (!res.ok) {
+        throw new Error("Failed to save score");
+      }
       const data = await res.json();
       console.log("Score Saved:", data);
     } catch (error) {
       console.error("Error saving score:", error);
     }
   };
-
 
   useEffect(() => {
     if (showResult || !started) {
