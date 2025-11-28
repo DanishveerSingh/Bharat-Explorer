@@ -4,7 +4,8 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 import { User } from "../models/user.models.js";
 
 const saveQuizScore = asyncHandler(async (req, res) => {
-  const { username, score } = req.body;
+  const username = req.user.username;
+  const { score } = req.body;
   if (!username || typeof score !== "number") {
     throw new ApiError(400, "Username and valid score are required");
   }
