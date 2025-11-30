@@ -277,7 +277,7 @@ function HomePage() {
                 <FaLinkedinIn />
               </a>
               <a
-                href="https://www.instagram.com/danishveer007"
+                href="https://www.instagram.com/_ishant2321"
                 target="_blank"
                 rel="noopener noreferrer"
               >
