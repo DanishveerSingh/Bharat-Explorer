@@ -13,7 +13,7 @@
 }
 
 .containerl {
-    background: url("https://cors-anywhere.vercel.app/https://drive.google.com/uc?export=view&id=1_dISebD03nuoeZnwheJvn7rRx9KtuA8n");
+    background: url("../../assets/bg.webp");
     background-size: cover;
     height: 100vh;
 }
