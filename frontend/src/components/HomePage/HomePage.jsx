@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import vid from "../../assets/vid.mp4";
+// import vid from "../../assets/vid.mp4";
 import qr from "../../assets/qr.jpg";
 import img from "../../assets/img.jpeg";
 import img1 from "../../assets/img1.jpeg";
@@ -22,28 +22,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function HomePage() {
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  const skipVideoSections = () => {
-    if (videoRef.current) {
-      let currentTime = videoRef.current.currentTime;
-      if (currentTime >= 3 && currentTime < 7) {
-        videoRef.current.currentTime = 8;
-      }
-      else if(currentTime >= 11 && currentTime < 15){
-        videoRef.current.currentTime = 15;
-      }
-      else if(currentTime >= 21 && currentTime < 22){
-        videoRef.current.currentTime = 23;
-      }
-      else if(currentTime >= 44 && currentTime < 50){
-        videoRef.current.currentTime = 50;
-      }
-      else if(currentTime >= 68){
-        videoRef.current.currentTime = 0;
-      }
-    }
-  };
+  // const skipVideoSections = () => {
+  //   if (videoRef.current) {
+  //     let currentTime = videoRef.current.currentTime;
+  //     if (currentTime >= 3 && currentTime < 7) {
+  //       videoRef.current.currentTime = 8;
+  //     }
+  //     else if(currentTime >= 11 && currentTime < 15){
+  //       videoRef.current.currentTime = 15;
+  //     }
+  //     else if(currentTime >= 21 && currentTime < 22){
+  //       videoRef.current.currentTime = 23;
+  //     }
+  //     else if(currentTime >= 44 && currentTime < 50){
+  //       videoRef.current.currentTime = 50;
+  //     }
+  //     else if(currentTime >= 68){
+  //       videoRef.current.currentTime = 0;
+  //     }
+  //   }
+  // };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -64,34 +64,34 @@ function HomePage() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener("timeupdate", skipVideoSections);
-    }
-    return () => {
-      if (videoRef.current) {
-        videoRef.current.removeEventListener("timeupdate", skipVideoSections);
-      }
-    };
-  }, []);
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.addEventListener("timeupdate", skipVideoSections);
+  //   }
+  //   return () => {
+  //     if (videoRef.current) {
+  //       videoRef.current.removeEventListener("timeupdate", skipVideoSections);
+  //     }
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.85;
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (videoRef.current) {
+  //     videoRef.current.playbackRate = 0.85;
+  //   }
+  // }, []);
 
   return (
     <>
       <div className="video-container">
-        <video
+        {/* <video
           ref={videoRef}
           src={vid}
           autoPlay
           loop
           muted
           id="background-video"
-        ></video>
+        ></video> */}
         <motion.div
           className="homepage-container"
           initial={{ opacity: 0, y: 50 }}
