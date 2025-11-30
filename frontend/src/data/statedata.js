@@ -3,25 +3,25 @@ const stateData = {
     culture: {
       text: "Culturally, the islands are home to indigenous tribes whose traditions and lifestyles have been preserved over centuries. The Nicobari dance is a vibrant folk dance performed during festivals and community celebrations, reflecting the islands’ rich tribal heritage.  Handicrafts made from natural materials such as shells and bamboo are widely produced, showcasing the skill and creativity of local artisans and their connection to the island environment.  Fishing and tourism are major industries on the Andaman & Nicobar Islands, attracting visitors from around the world for their pristine beaches, vibrant culture, and natural beauty.",
       images: [
-        "/andaman and nicobar island/culture1.jpg",
-        "/andaman and nicobar island/culture2.webp",
-        "/andaman and nicobar island/culture3.webp",
+        "/andaman_and_nicobar_island/culture1.jpg",
+        "/andaman_and_nicobar_island/culture2.webp",
+        "/andaman_and_nicobar_island/culture3.webp",
       ],
     },
     cuisine: {
       text: "The Andaman & Nicobar Islands, a beautiful archipelago in the Bay of Bengal, are known for their pristine beaches, rich biodiversity, and unique cultural heritage. The cuisine here is deeply influenced by the islands’ abundant marine resources and tropical environment.  Fresh seafood is central to the local diet, with dishes like Fish Curry and Coconut Prawn Curry that blend tangy and spicy flavors with creamy coconut milk.  The islands are also famous for their Grilled Lobster, a delicacy that showcases the freshness of the sea. For dessert, Coconut Ladoo—sweet balls made from grated coconut and jaggery—offers a tropical sweetness that is loved by locals and visitors alike.",
       images: [
-        "/andaman and nicobar island/cuisine1.jpg",
-        "/andaman and nicobar island/cuisine2.jpg",
-        "/andaman and nicobar island/cuisine3.webp",
+        "/andaman_and_nicobar_island/cuisine1.jpg",
+        "/andaman_and_nicobar_island/cuisine2.jpg",
+        "/andaman_and_nicobar_island/cuisine3.webp",
       ],
     },
     sights: {
       text: "The Andaman & Nicobar Islands also boast some spectacular sights. Radhanagar Beach on Havelock Island is world-renowned for its soft white sands and crystal-clear waters, often ranked among the best beaches globally.  The historic Cellular Jail in Port Blair stands as a poignant reminder of India’s struggle for independence, with its eerie architecture and stories of freedom fighters.  Nearby, Ross Island, once the administrative headquarters during the British era, offers fascinating ruins set amidst lush greenery and is a popular day trip destination.With its mix of natural beauty, rich cultural traditions, and historic landmarks.",
       images: [
-        "/andaman and nicobar island/sights1.jpg",
-        "/andaman and nicobar island/sights2.webp",
-        "/andaman and nicobar island/sights3.jpg",
+        "/andaman_and_nicobar_island/sights1.jpg",
+        "/andaman_and_nicobar_island/sights2.webp",
+        "/andaman_and_nicobar_island/sights3.jpg",
       ],
     },
   },
@@ -29,25 +29,25 @@ const stateData = {
     culture: {
       text: "The culture of Andhra Pradesh is steeped in art, devotion, and dance — a true celebration of life’s grace and rhythm. Kuchipudi, the classical dance form born in a small village by the same name, embodies elegance and storytelling through fluid movements, expressive eyes, and divine energy.  The vibrant folk dance, Kudumbi, is a fusion of classical and folk elements, blending traditional patterns with modern choreography. The region’s artistic mastery also shines through Kalamkari, an ancient hand-painted and block-printed art form on fabric.  The joy of Sankranti, the grand harvest festival, fills the skies with colorful kites and the homes with sweets made of sesame and jaggery, marking a time of gratitude, family gatherings, and vibrant rural celebrations that bring the state to life.",
       images: [
-        "/andhra pradesh/culture1.jpg",
-        "/andhra pradesh/culture2.png",
-        "/andhra pradesh/culture3.webp",
+        "/andhra_pradesh/culture1.jpg",
+        "/andhra_pradesh/culture2.png",
+        "/andhra_pradesh/culture3.webp",
       ],
     },
     cuisine: {
       text: "Andhra Pradesh, the “Rice Bowl of India,” is a land where tradition, artistry, and natural beauty come together in vibrant harmony. Stretching from the Eastern Ghats to the Bay of Bengal, the state is blessed with fertile plains, rich heritage, and a deep cultural spirit that pulses through every festival and flavor.  The cuisine of Andhra Pradesh is famed across India for its bold, fiery tastes and comforting home-style warmth. Andhra Chicken Curry, rich with red chilies, spices, and coconut, captures the state’s love for strong, aromatic flavors that awaken every sense.  Gongura Pachadi, a tangy chutney made from sorrel leaves, is a staple on every table — its sharp, refreshing taste symbolizing the perfect balance of spice and sour that defines Andhra food. Pesarattu, a nutritious green gram dosa, is a beloved breakfast dish, crisp on the outside and soft within.",
       images: [
-        "/andhra pradesh/cuisine1.jpg",
-        "/andhra pradesh/cuisine2.webp",
-        "/andhra pradesh/cuisine3.png",
+        "/andhra_pradesh/cuisine1.jpg",
+        "/andhra_pradesh/cuisine2.webp",
+        "/andhra_pradesh/cuisine3.png",
       ],
     },
     sights: {
       text: "The sights of Andhra Pradesh reveal its spiritual depth and natural charm. The Tirupati Balaji Temple, one of the world’s richest and most visited temples, stands atop the Tirumala Hills as a beacon of unwavering faith, where millions of devotees come to offer prayers to Lord Venkateswara.  In the Eastern Ghats, the scenic Araku Valley welcomes travelers with its lush coffee plantations, misty hills, and the warmth of tribal culture that thrives amidst the greenery. Nearby, the Borra Caves enchant visitors with their magnificent limestone formations, glowing under soft lights like nature’s own cathedral.  From sacred temples and art-filled towns to breathtaking valleys, Andhra Pradesh is a land that dances between devotion and creativity — a place where every meal, festival, and melody tells a story of abundance, faith, and enduring beauty.",
       images: [
-        "/andhra pradesh/sights1.jpg",
-        "/andhra pradesh/sights2.avif",
-        "/andhra pradesh/sights3.jpg",
+        "/andhra_pradesh/sights1.jpg",
+        "/andhra_pradesh/sights2.avif",
+        "/andhra_pradesh/sights3.jpg",
       ],
     },
   },
@@ -55,25 +55,25 @@ const stateData = {
     culture: {
       text: "Arunachal Pradesh, located in the northeastern part of India, is a region rich in natural beauty, cultural diversity, and traditions. Often referred to as the Land of the Rising Sun due to its geographical location, where the first rays of the sun hit India.  Arunachal Pradesh is home to a variety of indigenous communities, each with its own distinct culture, language, and way of life.  The state shares borders with Bhutan to the west, China to the north, and Myanmar to the east, which further adds to its uniqueness. This melting pot of cultures offers a fascinating glimpse into the indigenous traditions of the tribal communities that call this region home.",
       images: [
-        "/arunachal pradesh/culture1.jpg",
-        "/arunachal pradesh/culture2.jpg",
-        "/arunachal pradesh/culture3.jpg",
+        "/arunachal_pradesh/culture1.jpg",
+        "/arunachal_pradesh/culture2.jpg",
+        "/arunachal_pradesh/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Arunachal Pradesh is a place where misty hills whisper old legends and every meal feels like a warm hug after a mountain trek.  The food here tells the story of its tribes — hearty, earthy, and deeply comforting. Thukpa, the beloved noodle soup, warms both body and spirit, while Zan, a simple millet porridge, is the kind of staple that has fueled generations.  The bamboo shoot curry brings that tangy, fermented kick that only the hills can teach you to love. The local spices like saffron, cardamom, and cinnamon bring a sense of rich heritage to every meal.",
       images: [
-        "/arunachal pradesh/cuisine1.jpg",
-        "/arunachal pradesh/cuisine2.jpg",
-        "/arunachal pradesh/cuisine3.webp",
+        "/arunachal_pradesh/cuisine1.jpg",
+        "/arunachal_pradesh/cuisine2.jpg",
+        "/arunachal_pradesh/cuisine3.webp",
       ],
     },
     sights: {
       text: "The sights of Arunachal Pradesh are a blend of natural beauty and spiritual essence — Tawang Monastery stands grand and serene, its chants echoing through the mountains.  Ziro Valley stretches out like a song, green and endless, hosting the famous music festival that draws dreamers from all over.  And Sela Pass — a breathtaking gateway of snow and sky — reminds you that Arunachal isn’t just a state; it’s a feeling of peace that the mountains gift only to those who listen quietly.",
       images: [
-        "/arunachal pradesh/sights1.avif",
-        "/arunachal pradesh/sights2.webp",
-        "/arunachal pradesh/sights3.jpg",
+        "/arunachal_pradesh/sights1.avif",
+        "/arunachal_pradesh/sights2.webp",
+        "/arunachal_pradesh/sights3.jpg",
       ],
     },
   },
@@ -252,25 +252,25 @@ const stateData = {
     culture: {
       text: "Himachal Pradesh’s culture is vibrant and deeply rooted in its traditions. The grand Kullu Dussehra is a week-long festival marked by elaborate rituals, music, and processions of local deities, drawing visitors from all over.  The iconic Himachali caps and exquisite woolen handicrafts showcase the skill and artistry of local artisans, blending functionality with tradition.  The lively Nati folk dance, performed in colorful costumes with rhythmic beats, is a joyous expression of the region’s spirit and communal life.  The spiritual heritage of Himachal Pradesh includes temples, pilgrimage sites, and the Mahatma Gandhi legacy, highlighting the state’s commitment to spiritual values.",
       images: [
-        "/himachal pradesh/culture1.jpg",
-        "/himachal pradesh/culture2.png",
-        "/himachal pradesh/culture3.webp",
+        "/himachal_pradesh/culture1.jpg",
+        "/himachal_pradesh/culture2.png",
+        "/himachal_pradesh/culture3.webp",
       ],
     },
     cuisine: {
       text: "Himachal Pradesh, nestled in the serene Himalayas, is known for its pristine landscapes, rich cultural heritage, and comforting mountain cuisine. The local food offers hearty, wholesome dishes that reflect the region’s agricultural bounty and cooler climate.  A traditional festive meal called Dham is a lavish thali featuring rice, dal, and curd, often served during celebrations and community gatherings.  Another regional favorite is Chana Madra, where chickpeas are slow-cooked in a rich yogurt gravy seasoned with aromatic spices, delivering a unique tangy flavor. Siddu, a soft steamed wheat bread stuffed with nuts, spices, or even dried fruits, is a beloved snack enjoyed across Himachal’s villages.",
       images: [
-        "/himachal pradesh/cuisine1.webp",
-        "/himachal pradesh/cuisine2.jpg",
-        "/himachal pradesh/cuisine3.jpg",
+        "/himachal_pradesh/cuisine1.webp",
+        "/himachal_pradesh/cuisine2.jpg",
+        "/himachal_pradesh/cuisine3.jpg",
       ],
     },
     sights: {
       text: "The state is blessed with breathtaking sights that attract nature lovers and adventure enthusiasts alike. Shimla, the colonial-era hill station, is famous for its charming Mall Road and scenic Ridge, offering a perfect blend of history and leisure.  Manali stands out as a picturesque mountain town and adventure hub, offering activities like trekking, skiing, and river rafting. For those seeking solitude and spirituality, the Spiti Valley presents a stark, high-altitude desert landscape dotted with ancient monasteries, reflecting the Tibetan Buddhist influence.  Himachal Pradesh’s combination of delicious cuisine, rich traditions, and stunning natural beauty makes it a captivating destination nestled in the heart of the Himalayas.",
       images: [
-        "/himachal pradesh/sights1.webp",
-        "/himachal pradesh/sights2.jpg",
-        "/himachal pradesh/sights3.png",
+        "/himachal_pradesh/sights1.webp",
+        "/himachal_pradesh/sights2.jpg",
+        "/himachal_pradesh/sights3.png",
       ],
     },
   },
@@ -278,25 +278,25 @@ const stateData = {
     culture: {
       text: "The people of Jammu & Kashmir showcase their diverse cultural heritage through their traditional attire and festivals. In the colder parts of the valley, men wear pherans, long woolen cloaks that provide warmth, while women traditionally wear ghagra-cholis, colorful skirts with blouses.  In the higher Himalayan regions of Ladakh, the locals don thick woolen gonchas, perfectly suited for the harsh winters. The cultural calendar is lively and diverse, with festivals such as Eid, Navroz (Persian New Year), Baisakhi, Lohri, Diwali, and Losar (Tibetan New Year).  Jammu & Kashmir remains a land of contrasts—where serene natural landscapes meet vibrant traditions, and spiritual harmony blends with cultural richness, making it one of the most captivating regions in India.",
       images: [
-        "/jammu and kashmir/culture1.jpg",
-        "/jammu and kashmir/culture2.jpg",
-        "/jammu and kashmir/culture3.jpg",
+        "/jammu_and_kashmir/culture1.jpg",
+        "/jammu_and_kashmir/culture2.jpg",
+        "/jammu_and_kashmir/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Jammu & Kashmir, often hailed as the Paradise on Earth, is a region blessed with breathtaking landscapes, rich culture, and a unique blend of traditions shaped by its diverse geography and history.  The cuisine of Jammu & Kashmir is as rich and varied as its terrain, deeply influenced by the region’s cold climate and cultural mosaic. One of the most iconic dishes is Rogan Josh, a fragrant lamb curry cooked with a blend of Kashmiri spices, known for its deep red color and rich flavor.  Another popular delicacy is Dum Aloo, baby potatoes slow-cooked in a spicy gravy that perfectly complements the cold climate. To warm up, locals enjoy Kahwa, a traditional green tea infused with saffron, almonds, and spices, offering a soothing and aromatic experience.",
       images: [
-        "/jammu and kashmir/cuisine1.jpg",
-        "/jammu and kashmir/cuisine2.jpg",
-        "/jammu and kashmir/cuisine3.png",
+        "/jammu_and_kashmir/cuisine1.jpg",
+        "/jammu_and_kashmir/cuisine2.jpg",
+        "/jammu_and_kashmir/cuisine3.png",
       ],
     },
     sights: {
       text: "The natural beauty and historic landmarks of Jammu & Kashmir attract travelers from all over the world. Dal Lake in Srinagar is famous for its tranquil waters, traditional wooden shikaras (boats), and houseboats that offer a unique stay experience amidst the mountains.  The Vaishno Devi Temple is a major Hindu pilgrimage site, drawing millions who trek to its sacred shrine nestled in the Trikuta Mountains.  The scenic valleys of Sonamarg and Ladakh enchant visitors with their rugged beauty, turquoise waters of Pangong Lake, and ancient monasteries that speak to the region’s Buddhist heritage. The Raghunath Temple in Jammu is another spiritual landmark, dedicated to Lord Rama.",
       images: [
-        "/jammu and kashmir/sights1.webp",
-        "/jammu and kashmir/sights2.jpeg",
-        "/jammu and kashmir/sights3.jpg",
+        "/jammu_and_kashmir/sights1.webp",
+        "/jammu_and_kashmir/sights2.jpeg",
+        "/jammu_and_kashmir/sights3.jpg",
       ],
     },
   },
@@ -382,25 +382,25 @@ const stateData = {
     culture: {
       text: "The culture of Lakshadweep is deeply influenced by Islam, reflected in its customs, festivals, and way of life. Traditional dances such as the Lava dance showcase the islands’ vibrant folklore and communal spirit.  The craftsmanship of the people is evident in their coir handicrafts, created from coconut husks and used to make everyday items as well as decorative objects, demonstrating a strong connection to their natural environment.  The festivals of Lakshadweep, like the Diwali and Navaratri, are a celebration of life, love, and spirituality, highlighting the islands’ unique cultural heritage.",
       images: [
-        "/lakshadweep island/culture1.jpg",
-        "/lakshadweep island/culture2.webp",
-        "/lakshadweep island/culture3.jpg",
+        "/lakshadweep_island/culture1.jpg",
+        "/lakshadweep_island/culture2.webp",
+        "/lakshadweep_island/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Lakshadweep, India’s smallest union territory, is a stunning group of coral islands nestled in the Arabian Sea. Its cuisine is a vibrant reflection of its coastal environment and tropical climate, with fresh seafood playing a starring role.  Dishes like Tuna Curry are a local favorite, made with freshly caught tuna simmered in fragrant spices and coconut milk, offering rich and satisfying flavors.  Coconut Rice, infused with grated coconut and subtle spices, is a staple accompaniment, perfectly complementing the many seafood dishes. The islands are also known for their crispy Fried Fish, enjoyed by locals and visitors alike. For sweets, Coconut Halwa—a luscious, dense dessert made from coconut.",
       images: [
-        "/lakshadweep island/cuisine1.webp",
-        "/lakshadweep island/cuisine2.webp",
-        "/lakshadweep island/cuisine3.avif",
+        "/lakshadweep_island/cuisine1.webp",
+        "/lakshadweep_island/cuisine2.webp",
+        "/lakshadweep_island/cuisine3.avif",
       ],
     },
     sights: {
       text: "Lakshadweep’s natural beauty is awe-inspiring. Agatti Island offers pristine beaches and crystal-clear waters, ideal for snorkeling and diving amidst vibrant coral reefs. The Minicoy Lighthouse, standing tall on Minicoy Island, is a historical landmark providing panoramic views of the sea.  The remote and untouched Bangaram Atoll is a paradise for nature lovers, with turquoise lagoons and abundant marine life, making it a top destination for eco-tourism and tranquility.  Lakshadweep’s combination of breathtaking seascapes, rich cultural traditions, and delicious cuisine make it a unique and unforgettable destination.",
       images: [
-        "/lakshadweep island/sights1.jpg",
-        "/lakshadweep island/sights2.jpeg",
-        "/lakshadweep island/sights3.jpg",
+        "/lakshadweep_island/sights1.jpg",
+        "/lakshadweep_island/sights2.jpeg",
+        "/lakshadweep_island/sights3.jpg",
       ],
     },
   },
@@ -408,25 +408,25 @@ const stateData = {
     culture: {
       text: "Madhya Pradesh’s culture is a vibrant mix of folk traditions and tribal art forms. Folk dances like Gaur, Rai, and Matki are performed during festivals and celebrations, reflecting the lively spirit of the region.  The state is also renowned for its Gond paintings, a tribal art form characterized by intricate patterns and vivid colors that depict nature and mythology.  Every year, the Khajuraho Dance Festival celebrates classical Indian dance against the stunning backdrop of the UNESCO World Heritage temples, attracting artists and audiences from around the world.",
       images: [
-        "/madhya pradesh/culture1.avif",
-        "/madhya pradesh/culture2.jpg",
-        "/madhya pradesh/culture3.jpg",
+        "/ madhya_pradesh/culture1.avif",
+        "/ madhya_pradesh/culture2.jpg",
+        "/ madhya_pradesh/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Madhya Pradesh, often called the “Heart of India,” is a state rich in history, culture, and culinary traditions. The local cuisine offers comforting and flavorful dishes that reflect the region’s diverse influences.  A beloved breakfast item is Poha, made from flattened rice and often enjoyed with a sprinkle of fresh coriander and sev; it’s especially famous in Indore, where it’s paired perfectly with the sweet and crispy Jalebi, creating a popular iconic combo.  Another traditional dish is Dal Bafla, which consists of wheat balls cooked and served with a hearty lentil dal, reminiscent of the Rajasthani baati. The unique Bhutte Ka Kees, a grated corn delicacy cooked with spices and milk, showcases the use of local ingredients in inventive ways.",
       images: [
-        "/madhya pradesh/cuisine1.jpg",
-        "/madhya pradesh/cuisine2.webp",
-        "/madhya pradesh/cuisine3.jpg",
+        "/ madhya_pradesh/cuisine1.jpg",
+        "/ madhya_pradesh/cuisine2.webp",
+        "/ madhya_pradesh/cuisine3.jpg",
       ],
     },
     sights: {
       text: "The state is home to some of India’s most famous sights. The Khajuraho Temples, known for their exquisite carvings and architecture, stand as a testament to medieval Indian art and culture.  The ancient Sanchi Stupa is a significant Buddhist monument, symbolizing peace and spirituality. Nature lovers are drawn to Kanha National Park, one of India’s premier wildlife sanctuaries and the inspiration behind Rudyard Kipling’s The Jungle Book.  Madhya Pradesh offers a unique blend of culinary delights, cultural richness, and natural beauty, making it a captivating destination for travelers seeking both heritage and adventure.",
       images: [
-        "/madhya pradesh/sights1.jpg",
-        "/madhya pradesh/sights2.jpg",
-        "/madhya pradesh/sights3.jpg",
+        "/ madhya_pradesh/sights1.jpg",
+        "/ madhya_pradesh/sights2.jpg",
+        "/ madhya_pradesh/sights3.jpg",
       ],
     },
   },
@@ -668,25 +668,25 @@ const stateData = {
     culture: {
       text: "The culture of Tamil Nadu flows like a continuum of devotion, dance, and literature — a living testimony to its ancient glory. The classical dance form Bharatanatyam, with its expressive gestures and rhythmic grace, conveys stories of gods, love, and philosophy etched in divine motion.  In the hands of sculptors and weavers, tradition breathes through the intricate Chola bronze idols and vibrant Kanchipuram silk sarees, glowing with craftsmanship and spiritual depth.   The grand festival Pongal, celebrating harvest and gratitude, fills homes with joy, sugarcane, and sunlit rituals, while the Natyanjali festival in Chidambaram honors Lord Shiva through dance — an eternal offering of art to divinity.",
       images: [
-        "/tamil nadu/culture1.jpg",
-        "/tamil nadu/culture2.webp",
-        "/tamil nadu/culture3.jpeg",
+        "/tamil_nadu/culture1.jpg",
+        "/tamil_nadu/culture2.webp",
+        "/tamil_nadu/culture3.jpeg",
       ],
     },
     cuisine: {
       text: "Tamil Nadu, the cradle of Dravidian civilization, stands as a radiant mosaic of timeless heritage, divine artistry, and modern vigor. Resting gracefully along the southeastern coast of India, this land is where ancient wisdom harmonizes with progressive vision.  The cuisine of Tamil Nadu is a soulful symphony of flavors, steeped in tradition and pride. Aromatic sambar simmered with lentils and tamarind, crispy dosa spreading golden on the griddle, and the fiery Chettinad chicken rich with spices.  The fragrant Puliyodarai (tamarind rice), a temple-specialty dish, embodies devotion and balance, while the humble idli with coconut chutney reflects simplicity nourished by centuries of cultural finesse — light, comforting, and deeply satisfying.",
       images: [
-        "/tamil nadu/cuisine1.jpeg",
-        "/tamil nadu/cuisine2.avif",
-        "/tamil nadu/cuisine3.png",
+        "/tamil_nadu/cuisine1.jpeg",
+        "/tamil_nadu/cuisine2.avif",
+        "/tamil_nadu/cuisine3.png",
       ],
     },
     sights: {
       text: "The landscapes and landmarks of Tamil Nadu includes towering Brihadeeswarar Temple in Thanjavur, a UNESCO World Heritage marvel, rises as a stone hymn to Chola genius, while the majestic Meenakshi Amman Temple in Madurai dazzles with its sculpted corridors and sacred symmetry.  Along the Bay of Bengal, the serene Marina Beach stretches endlessly, blending the hum of life with ocean whispers. In contrast, the bustling city of Chennai pulses with modern ambition — a hub of technology, art, and cinema.  Tamil Nadu’s spirit thrives in its seamless fusion of the eternal and the evolving — a land where temples meet tech parks, where classical rhythms merge with digital dreams, and where every dawn greets tradition with the warmth of innovation.",
       images: [
-        "/tamil nadu/sights1.jpeg",
-        "/tamil nadu/sights2.webp",
-        "/tamil nadu/sights3.jpeg",
+        "/tamil_nadu/sights1.jpeg",
+        "/tamil_nadu/sights2.webp",
+        "/tamil_nadu/sights3.jpeg",
       ],
     },
   },
@@ -746,25 +746,25 @@ const stateData = {
     culture: {
       text: "Uttar Pradesh’s cultural landscape is equally rich. The classical dance form Kathak, with its roots in the Lucknow gharana, is a mesmerizing storytelling art that blends graceful movements with intricate footwork.  The state’s spiritual and festive traditions come alive during the Holi celebrations in Mathura and Vrindavan, where vibrant colors and devotional fervor create an unforgettable experience.  The exquisite Chikankari embroidery from Lucknow is a celebrated craft, known for its delicate hand-stitched patterns on fine fabrics, symbolizing the region’s artistic heritage.",
       images: [
-        "/uttar pradesh/culture1.jpg",
-        "/uttar pradesh/culture2.png",
-        "/uttar pradesh/culture3.jpg",
+        "/uttar_pradesh/culture1.jpg",
+        "/uttar_pradesh/culture2.png",
+        "/uttar_pradesh/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Uttar Pradesh, a culturally rich and historically significant state in northern India, is renowned for its diverse cuisine, vibrant traditions, and iconic landmarks. The culinary scene here is deeply influenced by Mughal and Awadhi flavors.  Among the most famous delicacies are Tunde Kababi, succulent and aromatic kebabs from Lucknow, celebrated for their secret blend of spices and melt-in-the-mouth texture.  A popular breakfast across Agra and Mathura is Bedai with Aloo Sabzi, where deep-fried bread is paired with a flavorful potato curry. Another cultural specialty is Banarasi Paan, a traditional betel leaf preparation that’s both refreshing and symbolic of the region’s hospitality.",
       images: [
-        "/uttar pradesh/cuisine1.jpeg",
-        "/uttar pradesh/cuisine2.avif",
-        "/uttar pradesh/cuisine3.avif",
+        "/uttar_pradesh/cuisine1.jpeg",
+        "/uttar_pradesh/cuisine2.avif",
+        "/uttar_pradesh/cuisine3.avif",
       ],
     },
     sights: {
       text: "The state is home to some of India’s most famous and breathtaking sights. The Taj Mahal in Agra, a UNESCO World Heritage site and one of the Seven Wonders of the World, stands as a timeless symbol of love and architectural brilliance.  The Ghats of Varanasi, the spiritual capital of India, are a hub of religious rituals, pilgrimages, and ancient traditions along the banks of the sacred Ganges River.  Fatehpur Sikri, the majestic Mughal city built by Emperor Akbar, showcases stunning architecture and offers a glimpse into India’s imperial past.Uttar Pradesh combines rich culinary traditions, deep-rooted culture, and historical grandeur.",
       images: [
-        "/uttar pradesh/sights1.jpg",
-        "/uttar pradesh/sights2.jpg",
-        "/uttar pradesh/sights3.jpg",
+        "/uttar_pradesh/sights1.jpg",
+        "/uttar_pradesh/sights2.jpg",
+        "/uttar_pradesh/sights3.jpg",
       ],
     },
   },
@@ -798,25 +798,25 @@ const stateData = {
     culture: {
       text: "The culture of West Bengal is a vibrant tapestry woven with music, literature, and devotion. At its heart lies Durga Puja, the grand festival that transforms every street and corner into a gallery of art, as magnificent pandals, colorful lights, and rhythmic dhak drums.  The state’s soul beats to the melody of Rabindra Sangeet, the timeless songs written and composed by Nobel laureate Rabindranath Tagore, whose verses continue to inspire love, reflection, and pride in every Bengali heart.  The artistry of Bengal also shines through its exquisite Baluchari sarees, handwoven in rich silk and adorned with mythological motifs that tell stories in thread — each drape a masterpiece of heritage and elegance.",
       images: [
-        "/west bengal/culture1.jpeg",
-        "/west bengal/culture2.jpeg",
-        "/west bengal/culture3.jpg",
+        "/west_bengal/culture1.jpeg",
+        "/west_bengal/culture2.jpeg",
+        "/west_bengal/culture3.jpg",
       ],
     },
     cuisine: {
       text: "West Bengal, the cultural heart of eastern India, is a land where art, intellect, and emotion come together in a graceful symphony. Cradled between the Himalayas and the Bay of Bengal, the state radiates warmth, creativity, and timeless charm.  The cuisine of Bengal is a celebration of delicate flavors and soulful comfort, deeply intertwined with its rivers and fertile plains. Macher Jhol, a light yet flavorful fish curry simmered with mustard, turmeric, and fresh vegetables, captures the Bengali love for fish and the art of subtle seasoning.  No meal feels complete without something sweet, and Bengal’s legendary Rosogolla — soft, spongy cheese balls soaked in fragrant sugar syrup — has become an emotion in itself, symbolizing the sweetness of Bengali hospitality. Another dish Shukto, is a mixed vegetable curry with a bitter-sweet taste.",
       images: [
-        "/west bengal/cuisine1.webp",
-        "/west bengal/cuisine2.jpeg",
-        "/west bengal/cuisine3.png",
+        "/west_bengal/cuisine1.webp",
+        "/west_bengal/cuisine2.jpeg",
+        "/west_bengal/cuisine3.png",
       ],
     },
     sights: {
       text: "The sights of West Bengal offer a journey through history, nature, and imagination. Victoria Memorial in Kolkata stands as a majestic relic of the colonial era, its white marble dome gleaming like a jewel amidst lush gardens, preserving memories of a bygone time.  To the south lies the mystical Sundarbans, the world’s largest mangrove forest and home to the elusive Royal Bengal Tiger, where land and water dance together under a canopy of green. And high in the misty hills of Darjeeling, emerald tea gardens stretch into the horizon.  West Bengal’s beauty lies in its contrasts — the intellectual grace of its cities, the spiritual calm of its villages, and the poetic magic that lingers in every song, flavor, and sunset over the Hooghly.",
       images: [
-        "/west bengal/sights1.jpg",
-        "/west bengal/sights2.jpg",
-        "/west bengal/sights3.jpeg",
+        "/west_bengal/sights1.jpg",
+        "/west_bengal/sights2.jpg",
+        "/west_bengal/sights3.jpeg",
       ],
     },
   },
