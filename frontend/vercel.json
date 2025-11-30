@@ -1,14 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/((?!.*\\.(?:jpg|jpeg|png|gif|webp|svg|mp4|webm|ogg|wav|mp3|m4a|json|css|js|ico)).*)",
-      "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
       "source": "/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+      "destination": "/index.html"
     }
   ]
 }
