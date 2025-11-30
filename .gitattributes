@@ -7,3 +7,5 @@
 frontend/public/**/*.{jpg,jpeg,png,webp,mp4} filter=lfs diff=lfs merge=lfs -text
 frontend/src/assets/**/*.{jpg,jpeg,png,webp,mp4} filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+public/** filter=lfs diff=lfs merge=lfs -text
+assets/** filter=lfs diff=lfs merge=lfs -text
