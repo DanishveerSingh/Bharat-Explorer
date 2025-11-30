@@ -420,25 +420,25 @@ const stateData = {
     culture: {
       text: "Madhya Pradesh’s culture is a vibrant mix of folk traditions and tribal art forms. Folk dances like Gaur, Rai, and Matki are performed during festivals and celebrations, reflecting the lively spirit of the region.  The state is also renowned for its Gond paintings, a tribal art form characterized by intricate patterns and vivid colors that depict nature and mythology.  Every year, the Khajuraho Dance Festival celebrates classical Indian dance against the stunning backdrop of the UNESCO World Heritage temples, attracting artists and audiences from around the world.",
       images: [
-        process.env.PUBLIC_URL + "/ madhya_pradesh/culture1.avif",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/culture2.jpg",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/culture3.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/culture1.avif",
+        process.env.PUBLIC_URL + "/madhya_pradesh/culture2.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/culture3.jpg",
       ],
     },
     cuisine: {
       text: "Madhya Pradesh, often called the “Heart of India,” is a state rich in history, culture, and culinary traditions. The local cuisine offers comforting and flavorful dishes that reflect the region’s diverse influences.  A beloved breakfast item is Poha, made from flattened rice and often enjoyed with a sprinkle of fresh coriander and sev; it’s especially famous in Indore, where it’s paired perfectly with the sweet and crispy Jalebi, creating a popular iconic combo.  Another traditional dish is Dal Bafla, which consists of wheat balls cooked and served with a hearty lentil dal, reminiscent of the Rajasthani baati. The unique Bhutte Ka Kees, a grated corn delicacy cooked with spices and milk, showcases the use of local ingredients in inventive ways.",
       images: [
-        process.env.PUBLIC_URL + "/ madhya_pradesh/cuisine1.jpg",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/cuisine2.webp",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/cuisine3.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/cuisine1.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/cuisine2.webp",
+        process.env.PUBLIC_URL + "/madhya_pradesh/cuisine3.jpg",
       ],
     },
     sights: {
       text: "The state is home to some of India’s most famous sights. The Khajuraho Temples, known for their exquisite carvings and architecture, stand as a testament to medieval Indian art and culture.  The ancient Sanchi Stupa is a significant Buddhist monument, symbolizing peace and spirituality. Nature lovers are drawn to Kanha National Park, one of India’s premier wildlife sanctuaries and the inspiration behind Rudyard Kipling’s The Jungle Book.  Madhya Pradesh offers a unique blend of culinary delights, cultural richness, and natural beauty, making it a captivating destination for travelers seeking both heritage and adventure.",
       images: [
-        process.env.PUBLIC_URL + "/ madhya_pradesh/sights1.jpg",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/sights2.jpg",
-        process.env.PUBLIC_URL + "/ madhya_pradesh/sights3.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/sights1.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/sights2.jpg",
+        process.env.PUBLIC_URL + "/madhya_pradesh/sights3.jpg",
       ],
     },
   },
