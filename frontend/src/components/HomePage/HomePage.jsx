@@ -85,7 +85,7 @@ function HomePage() {
           id="background-video"
         >
           <source
-            src="https://drive.google.com/uc?export=download&id=1hYdTBL4QR9nIQ45ZreBL3NJLEEAeygrZ"
+            src="https://res.cloudinary.com/danishveer/video/upload/v1764665662/vid1_e49ykw.mp4"
             type="video/mp4"
           />
         </video>
