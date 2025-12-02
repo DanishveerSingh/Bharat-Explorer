@@ -12,38 +12,30 @@ import user3 from "../../assets/user3.png";
 import user4 from "../../assets/user4.png";
 import "./HomePage.css";
 import Card from "../Card/Card.jsx";
-import {
-  FaInstagram,
-  FaLinkedinIn,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function HomePage() {
-  // const videoRef = useRef(null);
+  const videoRef = useRef(null);
 
-  // const skipVideoSections = () => {
-  //   if (videoRef.current) {
-  //     let currentTime = videoRef.current.currentTime;
-  //     if (currentTime >= 3 && currentTime < 7) {
-  //       videoRef.current.currentTime = 8;
-  //     }
-  //     else if(currentTime >= 11 && currentTime < 15){
-  //       videoRef.current.currentTime = 15;
-  //     }
-  //     else if(currentTime >= 21 && currentTime < 22){
-  //       videoRef.current.currentTime = 23;
-  //     }
-  //     else if(currentTime >= 44 && currentTime < 50){
-  //       videoRef.current.currentTime = 50;
-  //     }
-  //     else if(currentTime >= 68){
-  //       videoRef.current.currentTime = 0;
-  //     }
-  //   }
-  // };
+  const skipVideoSections = () => {
+    if (videoRef.current) {
+      let currentTime = videoRef.current.currentTime;
+      if (currentTime >= 3 && currentTime < 7) {
+        videoRef.current.currentTime = 8;
+      } else if (currentTime >= 11 && currentTime < 15) {
+        videoRef.current.currentTime = 15;
+      } else if (currentTime >= 21 && currentTime < 22) {
+        videoRef.current.currentTime = 23;
+      } else if (currentTime >= 44 && currentTime < 50) {
+        videoRef.current.currentTime = 50;
+      } else if (currentTime >= 68) {
+        videoRef.current.currentTime = 0;
+      }
+    }
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -64,34 +56,39 @@ function HomePage() {
     return () => clearInterval(interval);
   }, []);
 
-  // useEffect(() => {
-  //   if (videoRef.current) {
-  //     videoRef.current.addEventListener("timeupdate", skipVideoSections);
-  //   }
-  //   return () => {
-  //     if (videoRef.current) {
-  //       videoRef.current.removeEventListener("timeupdate", skipVideoSections);
-  //     }
-  //   };
-  // }, []);
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.addEventListener("timeupdate", skipVideoSections);
+    }
+    return () => {
+      if (videoRef.current) {
+        videoRef.current.removeEventListener("timeupdate", skipVideoSections);
+      }
+    };
+  }, []);
 
-  // useEffect(() => {
-  //   if (videoRef.current) {
-  //     videoRef.current.playbackRate = 0.85;
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.85;
+    }
+  }, []);
 
   return (
     <>
       <div className="video-container">
-        {/* <video
+        <video
           ref={videoRef}
           src={vid}
           autoPlay
           loop
           muted
           id="background-video"
-        ></video> */}
+        >
+          <source
+            src="https://drive.google.com/uc?export=download&id=1hYdTBL4QR9nIQ45ZreBL3NJLEEAeygrZ"
+            type="video/mp4"
+          />
+        </video>
         <motion.div
           className="homepage-container"
           initial={{ opacity: 0, y: 50 }}
