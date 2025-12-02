@@ -78,7 +78,6 @@ function HomePage() {
       <div className="video-container">
         <video
           ref={videoRef}
-          src={vid}
           autoPlay
           loop
           muted
